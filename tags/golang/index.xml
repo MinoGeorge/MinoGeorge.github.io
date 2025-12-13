@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Learnings on Kdiidn&#39;s Blog</title>
-    <link>https://MinoGeorge.github.io/learning/</link>
-    <description>Recent content in Learnings on Kdiidn&#39;s Blog</description>
+    <title>Golang on Kdiidn&#39;s Blog</title>
+    <link>https://MinoGeorge.github.io/tags/golang/</link>
+    <description>Recent content in Golang on Kdiidn&#39;s Blog</description>
     <generator>Hugo -- 0.151.0</generator>
     <language>en</language>
     <copyright>©Copyright 2025 Kdiidn</copyright>
     <lastBuildDate>Thu, 09 Oct 2025 08:17:51 +0800</lastBuildDate>
-    <atom:link href="https://MinoGeorge.github.io/learning/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://MinoGeorge.github.io/tags/golang/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>1.HelloGo</title>
       <link>https://MinoGeorge.github.io/learning/golang/1.hellogo/</link>

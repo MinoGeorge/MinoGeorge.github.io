@@ -7,7 +7,7 @@
     <generator>Hugo -- 0.151.0</generator>
     <language>en</language>
     <copyright>©Copyright 2025 Kdiidn</copyright>
-    <lastBuildDate>Wed, 08 Oct 2025 11:28:38 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 13 Dec 2025 20:44:43 +0800</lastBuildDate>
     <atom:link href="https://MinoGeorge.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[工程化学]化学热力学</title>
@@ -110,6 +110,41 @@
 &lt;p&gt;奶油色鞋子是文章中母亲与去世的外婆的联系，是我所听到的故事中的外婆，是旧时代的象征物。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;穿好衣服后，我转身面对镜子，一边掸去领口上的泥垢，一边心想着母亲能够从那样的世界逃离真的是太幸运了。在那个世界，白色和奶油色有着重要区别，这样的问题可能会影响到一个完美的早晨，一个本可以牵着卢克的羊到爸爸的废料厂寻宝的早晨。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>好久不见，我的朋友。</title>
+      <link>https://MinoGeorge.github.io/%E5%A5%BD%E4%B9%85%E4%B8%8D%E8%A7%81%E6%88%91%E7%9A%84%E6%9C%8B%E5%8F%8B/</link>
+      <pubDate>Sat, 13 Dec 2025 20:44:43 +0800</pubDate>
+      <guid>https://MinoGeorge.github.io/%E5%A5%BD%E4%B9%85%E4%B8%8D%E8%A7%81%E6%88%91%E7%9A%84%E6%9C%8B%E5%8F%8B/</guid>
+      <description>&lt;h2 id=&#34;好久不见我的小园子&#34;&gt;好久不见，我的小园子&lt;/h2&gt;
+&lt;p&gt;这个博客创建一年了，总是因为各种原因导致不能继续写作，或许我需要养成这么一个习惯才行&amp;ndash;好不容易有这么一片园子（园子这个词来自于我感兴趣的的另外一个人的博客），总不能让其荒芜。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>1.HelloGo</title>
+      <link>https://MinoGeorge.github.io/learning/golang/1.hellogo/</link>
+      <pubDate>Thu, 09 Oct 2025 08:17:51 +0800</pubDate>
+      <guid>https://MinoGeorge.github.io/learning/golang/1.hellogo/</guid>
+      <description>&lt;h1 id=&#34;hellogolang&#34;&gt;Hello，Golang&lt;/h1&gt;
+&lt;p&gt;我们先抛出一个简单的Helloword程序，以此来分析基本构造。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;package&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;fmt&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;func&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;fmt&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;Println&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Hello,world&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
     </item>
     <item>
       <title>Back</title>
